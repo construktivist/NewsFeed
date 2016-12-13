@@ -1,0 +1,35 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+div {
+	border: 1px dashed black;
+}
+
+.container{
+	height: 100%;
+}
+
+.feed-wrap{
+	height: 80%;
+}
+
+.comment-wrap{
+	height: 20%;
+}
+
+.main-ui{
+	height: 100%
+}
+
+.article{
+	height: 85%;
+}
+
+.comment{
+	height:15%;
+}
