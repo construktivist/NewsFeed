@@ -9,7 +9,7 @@ var cheerio = require("cheerio");
 var Promise = require("bluebird");
 var scrape_controller = require("./controllers/scrape_controller.js")
 //var Scrape = require("./models/Scrape.js");
-//var Article = require("./models/Article.js");
+var Article = require("./models/Articles.js");
 
 mongoose.Promise = Promise;
 
@@ -20,7 +20,7 @@ app.use(methodOverride('_method'))
 
 app.use(logger("dev"));
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use(express.static("public"));
 app.set('views', path.join(__dirname, 'views'));
