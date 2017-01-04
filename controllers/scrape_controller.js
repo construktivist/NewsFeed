@@ -23,7 +23,7 @@ router.get("/", function(request, response){
 
 
 
-	response.render("index");
+	response.render("index", {name: "Tobi"});
 });
 
 module.exports = router;
